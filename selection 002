@@ -1,0 +1,6 @@
+num1 = input("enter a number>>>")
+
+if num1 > "20":
+  print ("thats too high")
+else:
+  print("thank you")
