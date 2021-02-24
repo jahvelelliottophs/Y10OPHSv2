@@ -1,0 +1,12 @@
+num=int(input("Enter a number >>>"))
+
+total = (num)
+
+letter = "y"
+
+while letter == "y":
+  num1=int(input("Enter a number >>>"))
+  print (num + num1)
+  num2=input("Do you want to enter another number? >>>")
+  if num2 == "n":
+    break
