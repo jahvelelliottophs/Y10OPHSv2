@@ -1,0 +1,6 @@
+total = 0
+
+while total < 5:
+  num=int(input("Enter a number >>>"))
+  total = num
+  print("The last number you entered was", total)
