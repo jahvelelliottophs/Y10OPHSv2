@@ -1,0 +1,21 @@
+loop = "Y"
+
+count = 1
+
+
+while loop == "Y":
+  guess = int(input("Guess the number"))
+  
+  if (guess <20) and (guess >10):
+    print("Well done, you guessed it correct")
+    count = count + 1
+    print("It took you this many attempts:" , count)
+    break
+  
+  elif guess < 10:
+    print("Too low")
+    count = count + 1
+  
+  elif guess > 20:
+    print("too high")
+    count = count + 1
