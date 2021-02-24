@@ -1,0 +1,10 @@
+loop="y"
+count=0
+
+while loop=="y":
+  name=str(input("please enter the name of the person you want to  enter")).lower()
+  print(name,"has been invited")
+  count= count +1
+  loop=str(input("would you like to invite another person"))
+  
+  print("the number of people attending this party is",count)
