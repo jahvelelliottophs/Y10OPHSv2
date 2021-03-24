@@ -1,0 +1,23 @@
+num= str(input("do you want to count up or down>> u/d")).lower()
+
+
+
+if num =="u":
+    cu= int(input("enter a number to count up from>>"))
+    for i in range (1, cu + 1 ):
+        print(i)
+            
+  
+	
+  
+  
+elif num == "d":
+    cd= int(input("enter a number below 20 to count down from"))
+    for i in range (20, cd -1, -1):
+        print (i)
+            
+  
+	
+  
+else:
+    print("i do not understand")
