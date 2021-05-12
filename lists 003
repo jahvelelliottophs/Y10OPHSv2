@@ -13,8 +13,57 @@ invite.append(List3)
 print(invite)
 
 ans=input ("do you want to invite more people y or n>>>>")
-if ans= "y":
-  invite.append(ans)
+if ans== "y":
+  others=input("who else do you want to invite>>>")
+  invite.append(others)
   print(invite)
   
+else:
+  print(invite)
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
