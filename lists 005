@@ -1,0 +1,17 @@
+food=[]
+
+ask= input("enter a food")
+ask2= input("enter a food")
+ask3= input("enter a food")
+ask4= input("enter a food")
+
+food.append(ask)
+food.append(ask2)
+food.append(ask3)
+food.append(ask4)
+
+print(food)
+
+remove= int(input("enter the location of the food you want to remove>"))
+
+food.remove(remove)
