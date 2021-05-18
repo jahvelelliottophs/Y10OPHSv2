@@ -1,13 +1,10 @@
-show1= ("a")
-show2=("b")
-show3=("c")
-show4=("d")
-show5=input("please enter a show")
-
-show=[show1,show2,show3,show4,show5]
+show=["show1","show2","show3","show4"]
 for i in show:
-  print(i)
-
-pos=input("do you want to change your shows position y or n>>")
-if pos=y:
+  print(i) 
   
+ask=input("please enter a show")
+pos=int(input("what position do you want it in"))
+
+show.insert(pos,ask)
+for i in show:
+ print (i)
