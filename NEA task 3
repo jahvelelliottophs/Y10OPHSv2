@@ -1,0 +1,33 @@
+def main():
+  
+  print("employee details")
+
+
+    
+  employeee_id = int(input("enter your id number"))
+  name=input("enter your name")
+  telephone = int(input("enter your telephone number"))
+  qualification=input("enter your qualifications in the form AP for aprentice and FQ for fully qualified")
+  
+  
+  if qualification == "AP".lower():
+    print("your name is ",name," your id number is",employeee_id,"your telephone number is",telephone," and you're an apprentice")
+      
+  elif qualification == "FQ".lower():
+    print("your name is ",name," your id number is",employeee_id,"your telephone number is",telephone," and you're fully qualified")
+  
+ 
+    
+    
+
+  confirmation = input("are these details correct")
+  if confirmation == "Y".lower():
+     print ("thats all bye")
+  
+  
+main()
+    
+
+
+    
+     
