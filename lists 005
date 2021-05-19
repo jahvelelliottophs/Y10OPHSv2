@@ -12,8 +12,10 @@ food.append(ask4)
 
 print(food)
 
-remove=input("enter the food you want to remove>")
+remove=int(input("enter the food you want to remove>"))
 
-food.remove(remove)
+food.pop(remove)
 
 print(food)
+
+
