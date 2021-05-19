@@ -1,0 +1,21 @@
+nums=[]
+
+ask=int(input("enter a number"))
+nums.append(ask)
+
+
+ask2=int(input("enter a number"))
+nums.append(ask2)
+
+
+ask3=int(input("enter a number"))
+nums.append(ask3)
+
+
+remove=str(input("do you want to remove the last number"))
+if remove == "yes":
+  nums.remove(ask3)
+  print (nums)
+
+else:
+  print (nums)
